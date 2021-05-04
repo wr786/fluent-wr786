@@ -5,7 +5,13 @@
 
 ## Demo
 
+### v0.1
+
 <img src="./ScreenShots/demo.png" alt="./ScreenShots/demo.png" style="zoom:50%;" />
+
+### v0.2
+
+<img src="./ScreenShots/demo2.png" alt="./ScreenShots/demo2.png" style="zoom:50%;" />
 
 ## Usage
 

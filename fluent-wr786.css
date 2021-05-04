@@ -281,6 +281,13 @@
     src: url('./fluent-wr786/FZCSJW.TTF');
 }
 
+@font-face {
+    font-family: 'FZYouSJVFWT1';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fluent-wr786/FZYouSJVFWT1.TTF');
+}
+
 
 @font-face {
     font-family: quote;
@@ -290,8 +297,8 @@
 
 :root {
     --mono: var(--mono-font), var(--cjk-font);
-    --general-font: 'FZCSJW', var(--text-font), var(--cjk-font), var(--fallback-font);
-    --display-font: 'FZYanZQKSJF', var(--title-font), var(--cjk-font), var(--fallback-font);
+    --general-font: 'FZYouSJVFWT1', var(--text-font), var(--cjk-font), var(--fallback-font);
+    --display-font: 'FZYouSJVFWT1', var(--title-font), var(--cjk-font), var(--fallback-font);
 }
 
 html {
