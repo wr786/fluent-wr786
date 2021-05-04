@@ -306,6 +306,7 @@ html {
 }
 
 body {
+	background: #ffffff;
     font-family: var(--general-font);
     color: var(--text-color);
     line-height: 1.6;
