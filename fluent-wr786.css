@@ -171,7 +171,7 @@
     /*background color if list item in file tree or file list*/
     --active-file-text-color: inherit;
     --active-file-border-color: var(--color-auto-blue-6);
-    --side-bar-bg-color: #f9fafb;
+    --side-bar-bg-color: #f9fafb; 
     /*change background of sidebar*/
     --item-hover-bg-color: rgba(229, 229, 229, 0.59);
     /*background of control items when hover, like menu in sidebar*/
@@ -285,7 +285,9 @@
     font-family: 'FZYouSJVFWT1';
     font-style: normal;
     font-weight: normal;
-    src: url('./fluent-wr786/FZYouSJVFWT1.TTF');
+    /*src: url('./fluent-wr786/FZYouSJVFWT1.TTF');*/
+    src: url('https://cdn.jsdelivr.net/gh/wr786/fluent-wr786/fluent-wr786/FZYouSJVFWT1.TTF');
+    /*src: url('https://github.com/wr786/fluent-wr786/blob/main/fluent-wr786/FZYouSJVFWT1.TTF?raw=true');*/
 }
 
 
@@ -431,8 +433,9 @@ ul:last-child, ol:last-child {
 
 blockquote {
     color: var(--text-color);
-    border: 1px solid var(--border);
-    background-color: var(--elevated-background);
+    border: 1px solid var(--border) ;
+    border-left: 4px solid #0000dd;
+    background-color: #ddddff;
     border-radius: 4px;
     padding: 12px 16px;
 }
